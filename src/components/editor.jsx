@@ -24,7 +24,7 @@ function Editor() {
     else {
         size = {
             width: '80vw',
-            height: '90vh',
+            height: '1600px',
             transition: 'width 2s, height 2s'
         }
         hide = {}
@@ -44,7 +44,7 @@ function Editor() {
                     setClick(!click)} />
             </div>
             <textarea >
-                # Welcome to my React Markdown Previewer
+                # NO, fuck YOU! Welcome to my React Markdown Previewer
 
                 ## This is a sub-heading...
                 ### And here's some other cool stuff:

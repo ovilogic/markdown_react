@@ -1,7 +1,8 @@
 
 #bottomWindow {
     background-color: beige;
-    height: 500px;
+    
+    min-height: 200px;
     width: 80vw;
     margin-top: 30px;
     border: 1px solid black;
@@ -26,14 +27,3 @@
     width: 25px;
 }
 
-.max {
-    float: right;
-    display: block;
-    margin-top: 5px;
-    margin-right: 5px;
-    
-}
-
-.max:hover {
-    color: yellow
-}
