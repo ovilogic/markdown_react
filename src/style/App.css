@@ -1,5 +1,29 @@
 * {
-    border: 1px dashed black;
+    box-sizing: border-box;
+    /*border: 1px dashed black;*/
+}
+
+
+.App {
+    display: flex;
+    background-color: rgb(114, 197, 176);
+    
+    height: 150vh;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.max {
+    float: right;
+    display: block;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+}
+
+.max:hover {
+    color: aquamarine
 }
 
 

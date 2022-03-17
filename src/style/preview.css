@@ -1,9 +1,39 @@
 
-
-div {
+#bottomWindow {
     background-color: beige;
-    position: relative;
-    height: 100px;
-    width: 200px;
+    height: 500px;
+    width: 80vw;
+    margin-top: 30px;
+    border: 1px solid black;
+    box-shadow: 5px 10px 13px; 
+}
+
+#topbar {
+    border: 1px solid black;
+    height: 30px;
+    width: 100%;
+    background-color: teal;
+}
+
+#topbar > h5 {
+    margin-left: 22px;
+    display: inline;
+}
+
+.fcc {
+    margin-left: 15px;
+    display: inline-block;
+    width: 25px;
+}
+
+.max {
+    float: right;
+    display: block;
+    margin-top: 5px;
+    margin-right: 5px;
     
+}
+
+.max:hover {
+    color: yellow
 }

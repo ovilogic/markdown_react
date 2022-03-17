@@ -5,14 +5,16 @@ import './style/App.css'
 
 function App() {
   return (
-    <div className="App">
-
-    <Editor />
-    <h1>hello</h1>
-    <Preview />
-
     
-    </div>
+      <div className="App">
+        
+        <Editor />
+      
+        <Preview />
+
+      
+      </div>
+    
   );
 }
 
