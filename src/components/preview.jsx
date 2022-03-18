@@ -13,6 +13,7 @@ function Preview() {
     
     if (click == false) {
         size = {
+            
             height: '800px',
             width: '80vw',
             transition: 'width 2s, height 2s'

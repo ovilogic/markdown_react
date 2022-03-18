@@ -1,12 +1,15 @@
+import { useState } from 'react/cjs/react.production.min';
 import Editor from './components/editor';
 import Preview from './components/preview';
 import './style/App.css'
 
 
-function App() {
+function App(props) {
+  
   return (
     
       <div className="App">
+        
         
         <Editor />
       

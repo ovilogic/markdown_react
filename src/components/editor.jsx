@@ -5,6 +5,7 @@ import { CgMaximizeAlt, CgCompressRight } from 'react-icons/cg'
 
 function Editor() {
     const [click, setClick] = useState(false)
+    const [input, setInput] = useState('')
 
   
     let size = {}
@@ -43,9 +44,10 @@ function Editor() {
                 <CgCompressRight className='max' style={hide} onClick={() => 
                     setClick(!click)} />
             </div>
-            <textarea >
-                # NO, fuck YOU! Welcome to my React Markdown Previewer
-
+        
+            <textarea onChange={(event) => setInput(event.target.value)} >
+                #elcome to my React Markdown Previewer                   
+                    Here is the input:                       
                 ## This is a sub-heading...
                 ### And here's some other cool stuff:
 
@@ -83,6 +85,7 @@ function Editor() {
 
                 ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)       
             </textarea>
+            
             
         </div>
     );
