@@ -1,29 +1,17 @@
 
 #bottomWindow {
     background-color: beige;
-    
     min-height: 200px;
-    width: 80vw;
+    width: 80vw;    
     margin-top: 30px;
     border: 1px solid black;
     box-shadow: 5px 10px 13px; 
 }
 
-#topbar {
-    border: 1px solid black;
-    height: 30px;
-    width: 100%;
-    background-color: teal;
-}
 
-#topbar > h5 {
-    margin-left: 22px;
-    display: inline;
-}
-
-.fcc {
-    margin-left: 15px;
-    display: inline-block;
-    width: 25px;
+#preview {
+    overflow: scroll;
+    height: 96%;
+    
 }
 

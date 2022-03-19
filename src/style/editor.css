@@ -3,31 +3,11 @@
     flex-direction: column;
     margin-top:20px;
     height: 250px;
-    width: 200px;
+    
     box-shadow: 2px 6px 13px;
     border: black 1px solid;
     outline: none;
     }
-
-#topbar {
-    border: 1px solid black;
-    height: 30px;
-    width: 100%;
-    background-color: teal;
-    
-}
-
-#topbar > h5 {
-    margin-left: 22px;
-    display: inline;
-}
-
-.fcc {
-    margin-left: 15px;
-    display: inline-block;
-    width: 25px;
-}
-
 
 textarea {
     display: block;

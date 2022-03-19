@@ -3,7 +3,9 @@ import '../style/preview.css'
 import { FaFreeCodeCamp } from 'react-icons/fa'
 import { CgMaximizeAlt, CgCompressRight } from 'react-icons/cg'
 
-function Preview() {
+
+
+function Preview(props) {
     const [click, setClick] = useState(false)
     
 
@@ -33,10 +35,18 @@ function Preview() {
         
     }
 
+    // The following variable will be html markup that has been translated
+    // in the parent component using the marked function from
+    // the 'marked' library.
+    var html = props.marked
 
-    return ( 
+
+    return (
+         
         <div id='bottomWindow' style={size}>
-            <div id='topbar'>
+            
+  
+            <div className="topbar">
                     <FaFreeCodeCamp className='fcc' />
                     <h5><strong>Previewer</strong></h5>
                     <CgMaximizeAlt className='max' style={show} onClick={() => 
@@ -44,10 +54,11 @@ function Preview() {
                     <CgCompressRight className='max' style={hide} onClick={() => 
                     setClick(!click)} />
             </div>
-            <div>This is where your input gets translated. It does!!</div>
-
-
-
+            
+            
+            <span id="preview" dangerouslySetInnerHTML={{__html: html}} />
+            
+        
         </div>
 
      );
